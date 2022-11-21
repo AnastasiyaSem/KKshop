@@ -1,0 +1,35 @@
+.marketing__container {
+    display: flex;
+    margin-bottom: 53px;
+    img {
+        box-sizing: border-box;
+        margin-right: 72px;
+    }
+}
+
+.marketing__discr {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        font-size: 32px;
+        line-height: 130%;
+        margin-bottom: 16px;
+    }
+    
+    p {
+        margin-bottom: 24px;
+    }
+}
+
+.marketing__list {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        border: 1px solid #464646;
+        padding: 16px 130px 15px 15px;
+        color: #464646;
+        margin-right: 30px;
+    }
+}

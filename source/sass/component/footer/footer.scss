@@ -1,0 +1,31 @@
+.footer_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.footer__links {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+
+    color: #828282;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+}
+
+.footer__catalog,
+.footer__info  {
+    flex-direction: column;
+}

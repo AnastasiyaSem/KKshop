@@ -1,0 +1,23 @@
+.block {
+    margin-top: 150px;
+}
+
+.block__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__item {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        width: 56px;
+        height: 56px;
+        font-size: 12px;
+        background: #FF3465;
+        color: white;
+        box-sizing: border-box;
+        padding: 19px;
+    }
+}

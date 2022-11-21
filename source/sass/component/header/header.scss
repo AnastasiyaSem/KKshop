@@ -1,0 +1,29 @@
+.header__section--black {
+    background-color: black;
+    a {
+        color: white;
+    }
+}
+
+.wrapper {
+    @include wrapper;
+}
+
+.header__wrapper {
+    min-height: 49px;
+
+    display: grid;
+    // gap: 40px;
+    grid-template-columns: 175px auto 150px;
+    align-items: center;
+}
+
+.navigation__list {
+    display: flex;
+    li {
+        margin-right: 25px;
+    }
+    li:last-child {
+        margin-right: 0px;
+    }
+}
