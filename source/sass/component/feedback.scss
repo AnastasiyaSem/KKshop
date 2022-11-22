@@ -1,11 +1,53 @@
 .feedback {
-    
+    margin-top: 234px;
+    display: flex;
+    z-index: 2;
+    position: relative;
 }
 
-.feedback img { 
-    
+.feedback__form {
+    margin-left: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 110%;
+    }
 }
 
-.form {
+.feedback__discr {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
 
+    color: #5A5A5A;
+}
+
+.feedback__mail {
+    margin: 48px 0px;
+    border: none;
+    border-bottom: 1px solid #C4C4C4;;
+}
+
+.feedback__submit {
+    width: 530px;
+    height: 64px;
+
+    background: #000000;
+    color: white;
+}
+
+.feedback::after {
+    content: "";
+    position: absolute;
+    width: 1243px;
+    height: 555px;
+    // left: 555px;
+    // top: 314px;
+    z-index: 1;
+
+    background: red;
 }
